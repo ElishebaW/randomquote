@@ -1,7 +1,10 @@
 <h1>Random Programming Quotes Generator</h1>
-<ul>
-  <li><%=@quotes["quote"]%></li>
-  <li><%=@quotes["author"]%></li>
-</ul>
+  <div id="quote" >
+  <%=@quotes["quote"]%></br>
+  <%=@quotes["author"]%>
+   </div>
 
-<button>Next Quote</button>
+
+<button id="newQuote" onclick="window.location.reload()">Next Quote</button>
+
+<i class="fab fa-twitter"></i>

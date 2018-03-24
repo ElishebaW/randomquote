@@ -19,6 +19,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'httparty', '~> 0.15.6'
 gem 'json', '~> 2.1'
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

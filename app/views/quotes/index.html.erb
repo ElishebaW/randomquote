@@ -1,10 +1,10 @@
 <h1>Random Programming Quotes Generator</h1>
-  <div id="quote" >
-  <%=@quotes["quote"]%></br>
-  <%=@quotes["author"]%>
-   </div>
-
-
-<button id="newQuote" onclick="window.location.reload()">Next Quote</button>
-
-<i class="fab fa-twitter"></i>
+  <div id="quote">
+    <%=@quotes["quote"]%></br>
+    <%=@quotes["author"]%>
+  </div>
+  <div class="buttons">
+    <button class="btn btn-primary" id="newQuote" onclick="window.location.reload()">Next Quote</button>
+    <%= link_to "Tweet", "https://twitter.com/intent/tweet?text=", class:"twitter-share-button",target: "_blank" %>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

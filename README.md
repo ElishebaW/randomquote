@@ -3,9 +3,9 @@
 # Random Programming Quote Generator
 
 1. How do you load quotes into the Generator?
- do I put them in a Database?
- is there a random function in javascript?
- We're going to get random quotes using
+ Do I put them in a Database?
+ Is there a random function in JavaScript?
+ We're going to get random quotes using:
 
  http://quotes.stormconsultancy.co.uk/api
 
